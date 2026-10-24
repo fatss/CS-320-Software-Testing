@@ -8,17 +8,6 @@ back-end component for the Grand Strand Systems mobile application. It is
 tested with JUnit 5, and JaCoCo measures coverage. The report analyzes the
 testing approach, the techniques applied, and the mindset behind them.
 
-## Files
-
-```text
-ContactService/
-  Contact.java              Contact object with field validation
-  ContactService.java       In-memory service to add, delete, and update contacts
-  ContactTest.java          Unit tests for Contact
-  ContactServiceTest.java   Unit tests for ContactService
-Project_Two_Summary_and_Reflections_Report.docx   Project Two report
-```
-
 ## Requirements
 
 - **Contact ID:** unique, non-null, at most 10 characters, and cannot be
@@ -32,16 +21,6 @@ Project_Two_Summary_and_Reflections_Report.docx   Project Two report
 Invalid values, null contacts, duplicate IDs, and operations on unknown IDs
 throw `IllegalArgumentException`. A rejected update leaves the stored contact
 unchanged.
-
-## Test results
-
-26 test cases (16 in `ContactTest`, 10 in `ContactServiceTest`, counting each
-parameterized run separately) passed with 0 failures. Coverage:
-
-| Class | Lines | Branches |
-| --- | ---: | ---: |
-| Contact | 30 / 30 (100%) | 20 / 20 (100%) |
-| ContactService | 22 / 22 (100%) | 8 / 8 (100%) |
 
 ## Reflection
 
